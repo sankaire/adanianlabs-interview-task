@@ -26,7 +26,6 @@ paste this url to postman or any other api testing service
 ```#!/bin/bash
 http://localhost:5000/api/user/signup
 ```
-<br>
 and send this type of request
 ```#!/bin/bash
 http://localhost:5000/api/user/signup
