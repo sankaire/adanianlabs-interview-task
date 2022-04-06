@@ -8,6 +8,7 @@ require("./config/db")
 const userRouter = require("./routes/user.routes")
 const product = require("./routes/products.routes")
 const orders = require("./routes/order.routes")
+const checkout = require("./routes/checkout.routes")
 
 const app = express()
 app.use(cors())
@@ -16,7 +17,8 @@ app.use(express.json())
 //register routes
 app.use("/api/user/", userRouter)
 app.use("/api/products/", product)
-app.use("/api/orders", orders)
+app.use("/api/orders/", orders)
+app.use("/api/checkout/", checkout)
 
 const PORT = process.env.PORT || 5000
 app.listen(PORT,()=>console.log(`api runing on http://localhost:${PORT}`))
