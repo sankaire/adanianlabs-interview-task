@@ -28,6 +28,9 @@ http://localhost:5000/api/user/signup
 ```
 <br>
 and send this type of request
+```#!/bin/bash
+http://localhost:5000/api/user/signup
+```
 make sure to use the post verb
 <br>
 to get user
