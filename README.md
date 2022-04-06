@@ -18,7 +18,11 @@ yarn install
 ```#!/bin/bash
 yarn dev
 ```
-
+mongo uri
+```#!/bin/bash
+ mongodb+srv://tepela:ZAS0706x@cluster0.ns3va.mongodb.net/adanian?retryWrites=true&w=majority
+```
+set it on the .env file as MONGO_URI=
 ### users
 to register a user:
 <br>
