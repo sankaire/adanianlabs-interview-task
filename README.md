@@ -28,7 +28,12 @@ http://localhost:5000/api/user/signup
 ```
 and send this type of request
 ```#!/bin/bash
-http://localhost:5000/api/user/signup
+{
+    "name":"Peter Tepela",
+    "email":"tepela@gmail.com",
+    "password":"sdfgfgh"
+   
+}
 ```
 make sure to use the post verb
 <br>
