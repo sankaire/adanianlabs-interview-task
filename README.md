@@ -1,10 +1,10 @@
 # adanianlabs-interview-task
- ## runn the api
+ ## run the api
 
 1. clone the repository to your machine.
 
 ```#!/bin/bash
-git clone <url>
+git clone https://github.com/sankaire/adanianlabs-interview-task.git
 ```
 
 2. install dependancies
